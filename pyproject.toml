@@ -1,0 +1,17 @@
+[project]
+name = "shop-window"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MarcoAlikhani", email = "mohammad.alikhani@estudiantat.upc.edu" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+shop-window = "shop_window:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
